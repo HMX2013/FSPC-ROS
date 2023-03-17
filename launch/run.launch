@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="ri_dbscan" type="ri_dbscan_node" name="ri_dbscan_node" output="screen">
+    <param name="non_ground_cloud_topic"        value="/semi_kitti/non_ground_pc"/>
+    <param name="output_frame"                  value="map"/>
+
+    <param name="output_cluster_array_topic"  value="/clustering/cluster_array"/>
+    <param name="colored_cloud_topic"           value="/clustering/colored_cloud"/>
+  </node>
+
+  <!-- Dynamic Reconfigure GUI -->
+  <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" />
+
+  <!-- Rviz -->
+  <!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ri_dbscan)/rviz/ri_dbscan.rviz" output="log" respawn="false" /> -->
+
+</launch> 
