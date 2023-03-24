@@ -1,5 +1,5 @@
 ## Fast range image based DBSCAN clustering for 3D LiDAR Point Clouds
-An ROS implementation for dbscan clustering of 3D LiDAR point clouds
+An ROS implementation of dbscan clustering of 3D LiDAR point clouds
 
 ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-informational?style=flat&logo=ubuntu&logoColor=white&color=2bbc8a)
 ![ROS](https://img.shields.io/badge/Tools-ROS-informational?style=flat&logo=ROS&logoColor=white&color=2bbc8a)
@@ -13,7 +13,7 @@ An ROS implementation for dbscan clustering of 3D LiDAR point clouds
 
 
 ## Features
-* faster comparing to traditional dbscan algorithm
+* Faster comparing to traditional dbscan algorithm
 
 **TODOs**
 * imporove the segmentation accuracy 
@@ -28,7 +28,7 @@ An ROS implementation for dbscan clustering of 3D LiDAR point clouds
     mkdir -p catkin_ws/src
     cd catkin_ws/src
     git clone https://github.com/HMX2013/SemanticKITTI_loader
-    git clone https://github.com/HMX2013/Range-image-based-DBSCAN-3D-LiDAR-ROS
+    git clone https://github.com/HMX2013/FSPC-ROS
 
     cd ../
     catkin_make
