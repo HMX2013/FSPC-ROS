@@ -29,7 +29,8 @@ An ROS implementation of dbscan clustering of 3D LiDAR point clouds
     cd catkin_ws/src
     git clone https://github.com/HMX2013/SemanticKITTI_loader
     git clone https://github.com/HMX2013/FSPC-ROS
-
+    download obsdet_msgs from
+    "https://drive.google.com/file/d/1ztLk9Slm656CV-WJieUpBJPlz-Iw14Bk/view?usp=share_link"
     cd ../
     catkin_make
 
